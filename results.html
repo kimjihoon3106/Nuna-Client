@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>검색 결과 - Nuna</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body id="resultsPage">
+    <div class="background-overlay"></div>
+    <div class="background-image" id="backgroundImage"></div>
+    
+    <div class="results-container">
+        <div class="header">
+            <a href="index.html" class="home-link">← 홈으로</a>
+            <h1 id="schoolTitle" class="school-title"></h1>
+            <p class="result-count" id="resultCount"></p>
+        </div>
+        
+        <div id="celebritiesList" class="celebrities-list">
+            <!-- 연예인 카드들이 여기에 동적으로 추가됩니다 -->
+        </div>
+        
+        <div id="noResults" class="no-results hidden">
+            <p>출신 연예인을 찾을 수 없습니다.</p>
+        </div>
+        
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>검색 중...</p>
+        </div>
+    </div>
+    
+    <script src="static/js/config.js"></script>
+    <script src="static/js/results.js"></script>
+</body>
+</html>
