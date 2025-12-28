@@ -6,7 +6,7 @@ const API_CONFIG = {
     },
     // 프로덕션 환경: 배포된 백엔드 서버
     production: {
-        baseURL: 'https://your-backend-url.com' // 배포 시 실제 백엔드 URL로 변경
+        baseURL: 'https://port-0-nuna-server-mjqch87za573b2ae.sel3.cloudtype.app'
     }
 };
 
