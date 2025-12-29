@@ -4,9 +4,9 @@ const API_CONFIG = {
     development: {
         baseURL: 'http://localhost:5001'
     },
-    // 프로덕션 환경: 배포된 백엔드 서버
+    // 프로덕션 환경: ngrok 터널링된 로컬 백엔드
     production: {
-        baseURL: 'https://port-0-nuna-server-mjqch87za573b2ae.sel3.cloudtype.app'
+        baseURL: 'https://reagan-unmodelled-tucker.ngrok-free.dev'
     }
 };
 
